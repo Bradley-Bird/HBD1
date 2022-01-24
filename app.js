@@ -40,7 +40,7 @@ function handleGuess(userGuess, correctSpot) {
     shedContainer.classList.remove('face');
     treeContainer.classList.remove('face');
     boulderContainer.classList.remove('face');
-    // then in  crement the guesses
+    // then increment the guesses
     if (userGuess === correctSpot) {
         winsEl++;
     } else {
